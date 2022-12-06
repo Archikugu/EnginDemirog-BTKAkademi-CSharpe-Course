@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{66A79EC6-79D4-4135-BB64-99C2A8D89F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypesAndVariables", "TypesAndVariables\TypesAndVariables.csproj", "{1BE5899A-8104-44E9-B233-F1AC5CCBE91A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesAndVariables", "TypesAndVariables\TypesAndVariables.csproj", "{1BE5899A-8104-44E9-B233-F1AC5CCBE91A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals", "Conditionals\Conditionals.csproj", "{E21B9381-98EE-4B7A-B494-B2689F284C12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1BE5899A-8104-44E9-B233-F1AC5CCBE91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE5899A-8104-44E9-B233-F1AC5CCBE91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE5899A-8104-44E9-B233-F1AC5CCBE91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21B9381-98EE-4B7A-B494-B2689F284C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21B9381-98EE-4B7A-B494-B2689F284C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21B9381-98EE-4B7A-B494-B2689F284C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21B9381-98EE-4B7A-B494-B2689F284C12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
