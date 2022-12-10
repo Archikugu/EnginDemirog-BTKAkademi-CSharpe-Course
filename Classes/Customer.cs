@@ -14,20 +14,21 @@ namespace Classes
         //Property
         public int CustomerId { get; set; }
 
-        //private string _firstName;
-        //public string FirstName
-        //{
-        //    get
-        //    {
-        //        return "Mr." + _firstName;
-        //    }
-        //    set
-        //    {
-        //        _firstName = value;
-        //    }
-        //}
+        private string _firstName;
+        public string FirstName
+        {
+            get
+            {
+                return "Mr." + _firstName;
+            }
+            set
+            {
+                _firstName = value;
+            }
+        }
 
-        public string FirstName { get; set; }
+        //Auto Property
+        //public string FirstName { get; set; }
         public string LastName { get; set; }
         public string City { get; set; }
     }
