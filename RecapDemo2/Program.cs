@@ -11,10 +11,6 @@ namespace RecapDemo2
             customerManager.Logger = new Filelogger();
             customerManager.Logger = new Smslogger();
 
-            Smslogger smslogger = new Smslogger();
-            smslogger.Log();
-
-
             customerManager.Add();
         }
     }
