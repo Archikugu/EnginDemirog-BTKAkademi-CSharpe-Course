@@ -25,21 +25,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\In
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{A2C177BB-53B0-4241-BA65-9B7DD98E41B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{6FF0F242-9050-4AE1-A860-80997E673EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{6FF0F242-9050-4AE1-A860-80997E673EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethods", "VirtualMethods\VirtualMethods.csproj", "{1ACA745E-EE3B-49E2-9CB6-34C7DBD7BAD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualMethods", "VirtualMethods\VirtualMethods.csproj", "{1ACA745E-EE3B-49E2-9CB6-34C7DBD7BAD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{4B13B570-FD20-4DC2-8F21-86373D89B7B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{4B13B570-FD20-4DC2-8F21-86373D89B7B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo2", "RecapDemo2\RecapDemo2.csproj", "{652013C4-D32B-4AE2-A44C-45121EC81659}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecapDemo2", "RecapDemo2\RecapDemo2.csproj", "{652013C4-D32B-4AE2-A44C-45121EC81659}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{10D2C88B-A0EC-4749-BDB1-05FB1D885A11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiers", "AccessModifiers\AccessModifiers.csproj", "{10D2C88B-A0EC-4749-BDB1-05FB1D885A11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{259BAFDD-7B1F-4716-A4C3-5ED087FDA2C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessModifiersDemo", "AccessModifiersDemo\AccessModifiersDemo.csproj", "{259BAFDD-7B1F-4716-A4C3-5ED087FDA2C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{B4D3B17E-A9EB-4559-B109-E094659FEC9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{B4D3B17E-A9EB-4559-B109-E094659FEC9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{64EACC24-166C-4691-9D41-10B275DD2B0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceAndValueType", "ReferenceAndValueType\ReferenceAndValueType.csproj", "{64EACC24-166C-4691-9D41-10B275DD2B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{88327031-F868-4E9E-982C-8450733657C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{64EACC24-166C-4691-9D41-10B275DD2B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64EACC24-166C-4691-9D41-10B275DD2B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64EACC24-166C-4691-9D41-10B275DD2B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88327031-F868-4E9E-982C-8450733657C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88327031-F868-4E9E-982C-8450733657C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88327031-F868-4E9E-982C-8450733657C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88327031-F868-4E9E-982C-8450733657C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
