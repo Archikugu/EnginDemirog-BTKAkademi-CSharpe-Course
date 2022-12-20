@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReferenceAndValueType", "Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{88327031-F868-4E9E-982C-8450733657C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{6EB7333F-615C-42B6-9344-DB6ECE65E493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{6EB7333F-615C-42B6-9344-DB6ECE65E493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo", "AdoNetDemo\AdoNetDemo.csproj", "{477E44B3-AE5B-462B-9F9E-A5D4C0F27E31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{6EB7333F-615C-42B6-9344-DB6ECE65E493}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB7333F-615C-42B6-9344-DB6ECE65E493}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB7333F-615C-42B6-9344-DB6ECE65E493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477E44B3-AE5B-462B-9F9E-A5D4C0F27E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477E44B3-AE5B-462B-9F9E-A5D4C0F27E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477E44B3-AE5B-462B-9F9E-A5D4C0F27E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477E44B3-AE5B-462B-9F9E-A5D4C0F27E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
