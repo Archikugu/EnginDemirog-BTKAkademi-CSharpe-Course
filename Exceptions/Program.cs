@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 namespace Exceptions
 {
@@ -9,6 +10,41 @@ namespace Exceptions
         {
             //ExceptionIntro();
 
+            // TryCatch();
+
+            // ActionDemo();
+
+            Func<int, int, int> add = Plus;
+            Console.WriteLine(add(3, 5));
+
+            //  Console.WriteLine(Plus(2, 3));
+
+            Func<int> getRandomNumber = delegate ()
+            {
+                Random random = new Random();
+                return random.Next(1, 100);
+            };
+            
+            Console.WriteLine(getRandomNumber());
+            Thread.Sleep(1000);
+            Func<int>getRandomNumber2=()=>new Random().Next(1,100);
+            Console.WriteLine(getRandomNumber2());
+        }
+        static int Plus(int x, int y)
+        {
+            return x + y;
+        }
+
+        private static void ActionDemo()
+        {
+            HandleException(() =>
+            {
+                CustomException();
+            });
+        }
+
+        private static void TryCatch()
+        {
             try
             {
                 CustomException();
@@ -18,16 +54,6 @@ namespace Exceptions
                 Console.WriteLine(exception.Message);
                 throw;
             }
-
-
-            HandleException(() =>
-            {
-                CustomException();
-            });
-
-
-
-
         }
 
         private static void HandleException(Action action)
@@ -54,7 +80,7 @@ namespace Exceptions
             else
             {
                 Console.WriteLine("Record Found");
-               
+
             }
         }
 
